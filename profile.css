@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    /* overflow: hidden; */
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(184, 182, 182);
+}
+.logo .imglogo{
+    padding-top: 11px;
+    width: auto;
+    height: 17px;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+}
+/* .fa{
+    width: auto;
+    height: 40px;
+} */
+#fname{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 30px;
+    border-color: transparent;
+    border-color: rgb(156, 156, 156);
+}
+.hamburger{
+    width: auto;
+    height: 40px;
+}
+.profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: brown;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* background-image: url("kabit.jpg");
+    background-position: cover;
+    background-position: center; */
+}
+.profile img{
+    width: auto;
+    height: 35px;
+}
+.grid-item{
+    display: flex;
+    align-items: center;
+}
+.grid-item i{
+    padding-right: 10px;
+}
+.end{
+    padding-right: 20px;
+}
+.videos{
+ display: flex;
+ margin: 20px 20px;
+}
+.video{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(148, 148, 148);
+}
+.sec h1{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.video-list{
+    margin-left: 20px;
+}
+.list{
+    display: flex;
+    margin-bottom: 10px;
+}
+.list1{
+    width: 180px;
+    height: 120px;
+    background-color: rgb(148, 148, 148);
+}
+.texts h1{
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.texts h2{
+    font-size: 14px;
+    margin-left: 10px;
+    color: rgb(82, 82, 82);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
